@@ -1,0 +1,8 @@
+[versions]
+agp = "8.10.1"
+kotlin = "2.0.21"
+
+[libraries]
+
+[plugins]
+

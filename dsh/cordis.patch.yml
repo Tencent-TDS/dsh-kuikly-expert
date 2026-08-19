@@ -1,0 +1,14 @@
+# The layer this bundle contributes to a dsh profile that lists it.
+#
+# One row: a skill provider that publishes the packaged `skills/*/` tree on
+# `ctx.skills`. The row references the package by NAME (not a relative path) so
+# Node resolution finds the installed copy — see
+# https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.md
+#
+# The four Kuikly skills are the whole product here: no MCP server, no tools,
+# nothing to configure at install time. The skill bodies instruct the model to
+# invoke the upstream `@kuikly-ai/create-kuikly-app` CLI through the shell tool.
+
+- insert:
+    - id: dsh-kuikly-expert
+      name: dsh-kuikly-expert

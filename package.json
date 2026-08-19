@@ -1,0 +1,35 @@
+{
+  "name": "dsh-kuikly-expert",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Kuikly DeepSeek Harness plugin that turns your AI agent into a Kuikly cross-platform app development expert",
+  "main": "dsh/index.js",
+  "files": [
+    "dsh/index.js",
+    "dsh/cordis.patch.yml",
+    "skills",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "kuikly",
+    "kmp",
+    "cross-platform",
+    "android",
+    "ios",
+    "harmonyos"
+  ],
+  "homepage": "https://github.com/Tencent-TDS/KuiklyUI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+    "directory": "dsh-kuikly-expert"
+  },
+  "license": "KuiklyUI-AI"
+}
